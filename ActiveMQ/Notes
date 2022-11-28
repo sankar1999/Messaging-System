@@ -1,0 +1,5 @@
+activemq start
+
+docker pull webcenter/activemq
+
+docker run --name='activemq' -p 8161:8161 -it --rm -P webcenter/activemq:latest
