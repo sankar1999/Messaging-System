@@ -1,0 +1,9 @@
+brew install apache-activemq
+
+brew services start activemq
+
+http://localhost:8161/admin
+
+Username : admin
+Password : admin
+
