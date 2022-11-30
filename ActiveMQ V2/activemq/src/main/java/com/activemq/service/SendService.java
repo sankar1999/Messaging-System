@@ -16,6 +16,6 @@ public class SendService {
 
 
     public void sendName(String name) {
-        jmsTemplate.convertAndSend("Hello Queue", name);
+        jmsTemplate.convertAndSend("Next Queue Test", name);
     }
 }
